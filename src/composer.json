@@ -1,0 +1,25 @@
+{
+  "name": "rootree/TradeTracker",
+  "description": "Development Assessment for TradeTracker",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Ivan Chura",
+      "email": "ivan.chura@gmail.com"
+    }
+  ],
+  "require":
+  {
+    "php":">=5.4",
+    "zendframework/zendframework": "2.2.7",
+    "phpunit/phpunit": "4.8.*"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.zendframework.com/"
+    }
+  ],
+  "minimum-stability": "dev"
+}
