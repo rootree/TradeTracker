@@ -17,7 +17,7 @@ Usage
 -----
 
 ### Startup
-	$ git clone https://github.com/rootree/TradeTracker.git .
+	$ git clone https://github.com/rootree/TradeTracker.git
 	$ cd TradeTracker
 	$ vagrant up
 
@@ -27,10 +27,6 @@ Usage
 	$ make all
 
 That is pretty simple.
-
-Not necessary but if you copy config/autoload/local.php.dist to config/autoload/local.php and set up settings in this file, it will be nice.
-
-	cp config/autoload/local.php.dist config/autoload/local.php
 
 #### Apache
 The Apache server is available at <http://localhost:8080>
