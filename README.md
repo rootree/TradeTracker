@@ -22,7 +22,7 @@ Usage
 	$ vagrant up
 
 ### Without Vagrant (bower has to be installed)
-	$ git clone https://github.com/rootree/TradeTracker.git .
+	$ git clone https://github.com/rootree/TradeTracker.git
 	$ cd TradeTracker/src
 	$ make all
 
