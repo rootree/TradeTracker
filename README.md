@@ -3,6 +3,8 @@ TradeTracker
 
 Development Assessment for TradeTracker
 
+Full description here: <https://github.com/prewk/xml-string-streamer>
+
 Requirements
 ------------
 * VirtualBox <http://www.virtualbox.com>
@@ -13,13 +15,16 @@ Usage
 -----
 
 ### Startup
-	$ git clone http://www.github.com/mattandersen/vagrant-lamp
+	$ git clone https://github.com/rootree/TradeTracker.git .
 	$ cd TradeTracker
 	$ vagrant up
 
-That is pretty simple.
+### Without Vagrant
+	$ git clone https://github.com/rootree/TradeTracker.git .
+	$ cd TradeTracker/src
+	$ make all
 
-### Connecting
+That is pretty simple.
 
 #### Apache
 The Apache server is available at <http://localhost:8080>
@@ -30,6 +35,25 @@ Technical Details
 * Apache 2
 * PHP 5.5
 
+### Backend
+
+* Zend Framework 2
+* PhpUnit 
+* xml-string-streamer
+
+### Frontend
+
+* jQuery
+* Bootstrap  
+* Twig.js
+
 And like any other vagrant file you have SSH access with
 
 	$ vagrant ssh
+
+
+### UnitTest
+
+To run UnitTests go to src folder and perform this command:
+
+	./vendor/bin/phpunit --stop-on-error --stop-on-failure

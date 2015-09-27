@@ -8,3 +8,4 @@ vendors:
 
 bower:
 	bower install bootstrap --config.directory=public/bower_components
+	bower install twig.js --config.directory=public/bower_components
