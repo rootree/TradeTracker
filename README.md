@@ -3,7 +3,9 @@ TradeTracker
 
 Development Assessment for TradeTracker
 
-Full description here: <https://github.com/prewk/xml-string-streamer>
+Full description here: <http://trade-tracker.engwave.com/data/Developer%20Assessment%20v3.pdf>
+
+Working solution here: <http://trade-tracker.engwave.com/>
 
 Requirements
 ------------
@@ -19,12 +21,16 @@ Usage
 	$ cd TradeTracker
 	$ vagrant up
 
-### Without Vagrant
+### Without Vagrant (bower has to be installed)
 	$ git clone https://github.com/rootree/TradeTracker.git .
 	$ cd TradeTracker/src
 	$ make all
 
 That is pretty simple.
+
+Not necessary but if you copy config/autoload/local.php.dist to config/autoload/local.php and set up settings in this file, it will be nice.
+
+	cp config/autoload/local.php.dist config/autoload/local.php
 
 #### Apache
 The Apache server is available at <http://localhost:8080>

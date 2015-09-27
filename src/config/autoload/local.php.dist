@@ -12,5 +12,6 @@
  */
 
 return array(
-    'simple_path' => __DIR__ . '/../../public/data/productfeed.xml'
+    'simple_path' => __DIR__ . '/../../public/data/productfeed.xml',
+    'simple_URL' => 'http://trade-tracker.engwave.com/data/productfeed.xml'
 );

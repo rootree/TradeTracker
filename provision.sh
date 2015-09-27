@@ -47,8 +47,8 @@ network_go() {
 tools_go() {
 	# Install basic tools
 	apt-get -y install build-essential binutils-doc git
-	apt-get  -y install nodejs-legacy
-	apt-get  -y install npm
+	apt-get -y install nodejs-legacy
+	apt-get -y install npm
 	npm install -g bower
 	npm bower --config.interactive=false $*
 }

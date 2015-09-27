@@ -3,3 +3,7 @@
 .vagrant
 .idea
 *~
+src/composer.lock
+src/composer.phar
+src/public/bower_components/
+src/vendor/
